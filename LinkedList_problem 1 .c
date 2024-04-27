@@ -43,13 +43,13 @@ void showing_element ( struct node *start){
 int main (){
 	struct node *start = NULL;
 	
-	insert_cities ("khargone" , &start);
+	insert_cities ("Delhi" , &start);
 	insert_cities ("Indore" , &start);
 	insert_cities ("Pune" , &start);
 	insert_cities ("Ujjain" , &start);
 	insert_cities ("Surat" , &start);
-	insert_cities ("London" , &start);
-	insert_cities ("UK" , &start);
+	insert_cities ("San Fransisco" , &start);
+	insert_cities ("Lucknow" , &start);
 	
 	
 	// printing the element list
